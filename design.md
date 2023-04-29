@@ -25,6 +25,6 @@ SDK      domain    method
 ```
 
 ### Responses
-The SDK returns the response from the the-one-dev API as a Python dictionary. If an error occurs while making a request, the SDK will raise a HttpError exception.
+The SDK returns the response from the the-one-api API as a Python dictionary. If an error occurs while making a request, the SDK will raise a HttpError exception.
 #### Sample Response
 ``{status:200, json:{}}``

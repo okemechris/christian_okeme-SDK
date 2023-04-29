@@ -23,11 +23,11 @@ print(res)
 ### Parameters
 domain_id (string):\
 Used to retrieve one record\
-``client.movie.get(domain_id=11277636664)``\
+``client.movie.get(domain_id=11277636664)``
 
 pagination (Object):\
 Used to handle pagination\
-```client.movie.get(pagination={"page": 1, "limit": 10, "offset":1})```\
+```client.movie.get(pagination={"page": 1, "limit": 10, "offset":1})```
 
 sort (Object): \
 The sort parameter is used to sort response from the API
