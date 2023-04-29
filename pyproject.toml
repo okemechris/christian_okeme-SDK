@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "liblab_djbabs"
+version = "0.0.6"
+authors = [
+    { name="Christian Okeme", email="okemedjbabs@gmail.com" },
+]
+description = "A simple the-one-api package for assessment purpose"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "six",
+    "urllib3"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/okemechris/christian_okeme-SDK"
+"Bug Tracker" = "https://github.com/okemechris/christian_okeme-SDK/issues"
