@@ -25,6 +25,10 @@ domain_id (string):\
 Used to retrieve one record\
 ``client.movie.get(domain_id=11277636664)``
 
+domain_action (string): \
+This parameter is used in cases where you want to retrieve some content specific to a particular domain record
+``client.movie.get(domain_id="11277636664", domain_action="quotes"})``
+
 pagination (Object):\
 Used to handle pagination\
 ```client.movie.get(pagination={"page": 1, "limit": 10, "offset":1})```
